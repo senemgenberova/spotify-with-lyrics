@@ -1,0 +1,32 @@
+body {
+  overflow: hidden;
+  /* background-color: #000; */
+}
+
+.App {
+  padding: 1.5rem;
+}
+
+.track-list {
+  margin-top: 24px;
+  overflow-y: auto;
+  height: 75vh;
+}
+
+.track-list .track {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 16px;
+}
+
+.track-list .track .info {
+  margin-left: 16px;
+}
+
+.lyrics {
+  white-space: pre;
+  text-align: center;
+  height: 90vh;
+  overflow-y: auto;
+}
